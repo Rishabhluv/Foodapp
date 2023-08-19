@@ -16,7 +16,7 @@ const mongodb = async() => {
             }else{
                 global.food_item=data;
                 global.foodCategory=catData;
-                console.log(data,catData);
+             //   console.log(data,catData);
             }
            })
         })

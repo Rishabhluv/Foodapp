@@ -9,7 +9,7 @@ function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem('userEmail'))
-    await fetch("http://localhost:5000/api/myorderData", {
+    await fetch("/api/myorderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
@@ -83,9 +83,9 @@ function MyOrder() {
                     })
 
                   )
-                }) : <div>order</div>
+                }) : <div className='mt-4'>ORDERSOMETHING</div>
             )
-          }) : <div>order</div>}
+          }) : <div>ORDERSOMETHING</div>}
         </div>
 
 

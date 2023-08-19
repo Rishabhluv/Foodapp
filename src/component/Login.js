@@ -7,7 +7,7 @@ function Login() {
     const [credential, setcredential] = useState({email:"",password:""})
     const handleclick = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:5000/api/loginuser", {
+        const response = await fetch("/api/loginuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json' 
