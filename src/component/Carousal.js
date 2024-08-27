@@ -12,13 +12,13 @@ function Carousal() {
                         </form>
                     </div>
                     <div className="carousel-item active" >
-                        <img src="https://source.unsplash.com/random/300x300/?burger" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
+                        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
                     </div>
                     <div className="carousel-item" >
-                        <img src="https://source.unsplash.com/random/300x300/?cake" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/300x300/?biryani" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
+                        <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{ filter: "brightness(30%)" }} alt="..."></img>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
