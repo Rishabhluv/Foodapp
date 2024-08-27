@@ -5,9 +5,9 @@ import Card from "./Card";
 import Carousal from "./Carousal";
 import { useState, useEffect } from "react";
 function Home() {
-  const [search, setSearch] = useState(" ");
-  const [foodcat, setFoodcat] = useState([]);
-  const [fooditem, setFooditem] = useState([]);
+  const [search, setSearch] = useState();
+  const [foodcat, setFoodcat] = useState();
+  const [fooditem, setFooditem] = useState();
 
   const loadData = async () => {
     let response = await fetch("/api/foodData", {

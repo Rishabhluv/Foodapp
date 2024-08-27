@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
 function MyOrder() {
-  const [orderData, setorderData] = useState("");
+  const [orderData, setorderData] = useState();
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
