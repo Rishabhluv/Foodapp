@@ -34,7 +34,7 @@ function Home() {
         <Carousal></Carousal>
       </div>
       <div className="container">
-        {foodcat !== [] ? (
+        {foodcat ? (
           foodcat.map((data) => {
             return (
               <div className="row mb-3">
@@ -42,7 +42,7 @@ function Home() {
                   {data.CategoryName}
                 </div>
                 <hr />
-                {fooditem !== [] ? (
+                {fooditem ? (
                   fooditem
                     .filter(
                       (item) =>
